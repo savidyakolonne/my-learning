@@ -1,0 +1,20 @@
+package org.example.properties.Inheritance;
+
+public class BoxWeight extends Box {
+    double weight;
+
+    public BoxWeight(){
+        this.weight = -1;
+    }
+
+    public BoxWeight(double l, double h, double w, double weight){
+        super(l, h, w);
+        // "super" for call the parent class constructor
+        // used to initialize values present in parent class
+
+        // System.out.println(this.w);
+        //
+        System.out.println(super.w);
+        this.weight = weight;
+    }
+}
