@@ -8,10 +8,10 @@ public class ObjectDemo {
         this.num = num;
     }
 
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
-    }
+//    @Override
+//    protected void finalize() throws Throwable {
+//        super.finalize();
+//    }
 
     @Override
     public String toString() {
