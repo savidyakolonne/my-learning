@@ -2,10 +2,10 @@ package org.example.properties.abstraction;
 
 public class Main {
     public static void main(String[] args) {
-        Son son = new Son();
+        Son son = new Son(21);
         son.career();
 
-        Daughter daughter = new Daughter();
+        Daughter daughter = new Daughter(21);
         daughter.career();
 
         // cant make object of the abstract classes
