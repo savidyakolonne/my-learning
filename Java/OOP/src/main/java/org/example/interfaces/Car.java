@@ -1,6 +1,9 @@
 package org.example.interfaces;
 
-public class Car implements Engine, Brake{
+public class Car implements Engine, Brake, Media{
+
+    int a = 30;
+
     @Override
     public void brake() {
         System.out.println("I brake like a normal car");
@@ -8,12 +11,12 @@ public class Car implements Engine, Brake{
 
     @Override
     public void start() {
-        System.out.println("I start like a normal car");
+        System.out.println("I start engine like a normal car");
     }
 
     @Override
     public void stop() {
-        System.out.println("I stop like a normal car");
+        System.out.println("I stop engine like a normal car");
     }
 
     @Override
